@@ -1,0 +1,10 @@
+# This is a static, single-file site — no build step is needed.
+[build]
+  command = "echo 'Static site, no build step'"
+  publish = "."
+
+# Serve the invitation at the site root.
+[[redirects]]
+  from = "/"
+  to = "/wedding_invitation_sneha_sunny%20(1).html"
+  status = 200
